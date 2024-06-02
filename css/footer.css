@@ -1,0 +1,48 @@
+/* FOOTER */
+
+footer{
+    background-color: var(--theme-blue);
+    padding: 70px 0;
+}
+.footer-item p, .footer-item a, .footer-item h3, .footer-item li{
+    color: var(--theme-white);
+}
+.footer-item h3{
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.footer-item img{
+    margin: 0 10px 20px 0;
+}
+.footer-item a{
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--theme-gray-200);
+}
+footer .col-3:nth-child(3) ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+footer .col-3:nth-child(3) li{
+    margin-bottom: 10px;
+}
+footer input, footer button{
+    width: 100%;
+}
+footer input{
+    border: 1px solid var(--theme-gray-200);
+    background-color: transparent;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    caret-color: var(--theme-white);
+}
+footer input::placeholder{
+    color: var(--theme-gray-200);
+}
+footer button{
+    padding: 10px 0;
+    font-family: 'Jost';
+    font-size: 16px;
+    color: var(--theme-orange);
+    cursor: pointer;
+}

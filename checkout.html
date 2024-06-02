@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Gadgets Zone</title>
+    <link href="css/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="fonts/remixicon/remixicon.css" rel="stylesheet" type="text/css"/>
+    <link href="fonts/jost/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/header.css" rel="stylesheet" type="text/css"/>
+    <link href="css/checkout.css" rel="stylesheet" type="text/css"/>
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/media.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <div class="topbar">
+        <div class="container">
+            <ul class="d-flex justify-between">
+                <li>
+                    <h2 class="text-center">Gadgets Zone</h2>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="ri-search-line"></i>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <i class="ri-shopping-cart-line"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="navigation relative">
+        <h2>Gadgets Zone</h2>
+        <ul class="d-flex">
+            <li>
+                <a href="javascript:void(0)">Home</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Terms & Conditions</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Contact</a>
+            </li>
+        </ul>
+        <a href="javascript:void(0)" class="toggle">
+            <i class="ri-menu-3-line"></i>
+        </a>
+    </div>
+</header>
+
+<main>
+
+<section class="checkout">
+    <div class="container">
+        <div class="checkout-title">
+            <ul class="d-flex">
+                <li>
+                    <a href="javascript:void(0)">
+                        Home
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        View Cart
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Checkout</a>
+                </li>
+            </ul>
+            <ul class="d-flex">
+                <li>Address</li>
+                <li>- - - - - - -</li>
+                <li>Dispatch</li>
+                <li>- - - - - - -</li>
+                <li>Review Order & Make Payment</li>
+            </ul>
+        </div>
+        <div class="checkout-inner">
+            <div class="row">
+                <div class="col-8 col-md-12">
+                    <div class="checkout-item">
+                        <h3>Shipping Address</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-6 col-sm-12">
+                                    <div class="form-item">
+                                        <label>First Name</label>
+                                        <sup>*</sup>
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <div class="form-item">
+                                        <label>Last Name</label>
+                                        <sup>*</sup>
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <label>Email</label>
+                                        <sup>*</sup>
+                                        <input type="email"/>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <label>Address</label>
+                                        <sup>*</sup>
+                                        <textarea></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <div class="form-item">
+                                        <label>City</label>
+                                        <sup>*</sup>
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <div class="form-item">
+                                        <label>Country</label>
+                                        <sup>*</sup>
+                                        <select>
+                                            <option>India</option>
+                                            <option>Australia</option>
+                                            <option>Canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <div class="form-item">
+                                        <label>State / Province</label>
+                                        <sup>*</sup>
+                                        <select>
+                                            <option>Surat</option>
+                                            <option>California</option>
+                                            <option>New York</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <div class="form-item">
+                                        <label>Zip Code</label>
+                                        <sup>*</sup>
+                                        <input type="text"/>
+                                    </div>
+                                </div>  
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <label>Telephone</label>
+                                        <sup>*</sup>
+                                        <input type="text"/>
+                                    </div>
+                                </div>    
+                                <div class="col-12">
+                                    <div class="form-item">
+                                        <input type="checkbox" id="check"/>
+                                        <label for="check">Billing Address is same as Shipping Address</label>
+                                    </div>
+                                </div>  
+                                <div class="col-12">
+                                    <div class="form-item text-right">
+                                        <button>Continue</button>
+                                    </div>
+                                </div>                          
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-4 col-md-12">
+                    <div class="checkout-item">
+                        <form class="d-flex">
+                            <input type="text" placeholder="Coupon Code"/>
+                            <button type="submit">Apply</button>
+                        </form>
+                        <h4>Order Summary</h4>
+                        <ul class="d-flex justify-between">
+                            <li>Subtotal (1 Items)</li>
+                            <li>$210.00</li>
+                        </ul>
+                        <ul class="d-flex justify-between">
+                            <li>Total</li>
+                            <li>$210.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-4 col-sm-12">
+                <div class="footer-item">
+                    <h3>Payment Options</h3>
+                    <img src="img/pay.png" title="pay" alt="pay" width="50"/>
+                    <img src="img/amex.png" title="amex" alt="amex" width="50"/>
+                    <img src="img/gpay.png" title="gpay" alt="gpay" width="50"/>
+                    <p>&copy; gadgets zone <br/> Powered by zoho commerce</p>
+                </div>
+            </div>
+            <div class="col-3 col-md-4 col-sm-12">
+                <div class="footer-item">
+                    <h3>Follow Us</h3>
+                    <ul class="d-flex">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i class="ri-pinterest-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3 col-md-4 col-sm-12">
+                <div class="footer-item">
+                    <h3>We Accept</h3>
+                    <ul>
+                        <li>Visa Card</li>
+                        <li>Master Cards</li>
+                        <li>Other Cards</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3 col-md-4 col-sm-12">
+                <div class="footer-item">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="Email"/>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
